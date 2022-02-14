@@ -61,8 +61,6 @@ def main():
     for json_response in paginate(url, headers):
         print(json.dumps(json_response, indent=4, sort_keys=True))
 
-    # json_response = connect_to_endpoint(url, headers)
-
 
 if __name__ == "__main__":
     main()

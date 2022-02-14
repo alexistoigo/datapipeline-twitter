@@ -8087,3 +8087,748 @@ File Path                                                                       
 /home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.11s           2022-02-14T16:31:20
 /home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.11s           2022-02-14T16:30:54
 ================================================================================
+[2022-02-14 16:34:46,671] {dag_processing.py:839} INFO - Processing files using up to 1 processes at a time 
+[2022-02-14 16:34:46,671] {dag_processing.py:840} INFO - Process each file at most once every 0 seconds
+[2022-02-14 16:34:46,671] {dag_processing.py:841} INFO - Checking for new files in /home/alexis/Documentos/datapipeline/airflow/dags every 300 seconds
+[2022-02-14 16:34:46,672] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-14 16:34:46,672] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2022-02-14 19:29:46.672838+00:00
+[2022-02-14 16:34:46,788] {dag_processing.py:1064} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_http_operator.py                                             0           0
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.10s           2022-02-14T19:34:46
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                           0           0
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                      0           0
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/test_utils.py                                                        0           0
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                          0           0
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                   0           0
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                               0           0
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0
+================================================================================
+[2022-02-14 16:34:58,668] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-14 16:34:58,669] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2022-02-14 19:29:58.669802+00:00
+[2022-02-14 16:35:10,678] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-14 16:35:10,685] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2022-02-14 19:30:10.685162+00:00
+[2022-02-14 16:35:16,798] {dag_processing.py:1064} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.11s           2022-02-14T19:34:54
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  0.11s           2022-02-14T19:34:58
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0  0.21s           2022-02-14T19:35:12
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_http_operator.py                                             0           0
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.10s           2022-02-14T19:34:46
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                           0           0
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.11s           2022-02-14T19:35:02
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                      0           0
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.11s           2022-02-14T19:35:14
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.21s           2022-02-14T19:35:06
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.11s           2022-02-14T19:35:16
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.21s           2022-02-14T19:35:10
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/test_utils.py                                                        0           0
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.21s           2022-02-14T19:34:56
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                          0           0
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                   0           0  0.10s           2022-02-14T19:35:08
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                               0           0
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.21s           2022-02-14T19:34:52
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.10s           2022-02-14T19:35:04
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.21s           2022-02-14T19:34:48
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.21s           2022-02-14T19:34:50
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.10s           2022-02-14T19:35:00
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0
+================================================================================
+[2022-02-14 16:35:22,690] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-14 16:35:22,691] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2022-02-14 19:30:22.691902+00:00
+[2022-02-14 16:35:34,703] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-14 16:35:34,704] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2022-02-14 19:30:34.704285+00:00
+[2022-02-14 16:35:46,714] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-14 16:35:46,715] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2022-02-14 19:30:46.715716+00:00
+[2022-02-14 16:35:46,965] {dag_processing.py:1064} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.11s           2022-02-14T19:35:44
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  0.11s           2022-02-14T19:34:58
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0  0.21s           2022-02-14T19:35:12
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.21s           2022-02-14T19:35:28
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.11s           2022-02-14T19:35:36
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.11s           2022-02-14T19:35:02
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.11s           2022-02-14T19:35:26
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.11s           2022-02-14T19:35:14
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.21s           2022-02-14T19:35:06
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.11s           2022-02-14T19:35:16
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.21s           2022-02-14T19:35:10
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.11s           2022-02-14T19:35:18
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.21s           2022-02-14T19:35:46
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.11s           2022-02-14T19:35:22
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                   0           0  0.10s           2022-02-14T19:35:08
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.11s           2022-02-14T19:35:30
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.11s           2022-02-14T19:35:32
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.10s           2022-02-14T19:35:42
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.10s           2022-02-14T19:35:04
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.21s           2022-02-14T19:35:38
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.10s           2022-02-14T19:35:40
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  0.21s           2022-02-14T19:35:24
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.10s           2022-02-14T19:35:00
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.11s           2022-02-14T19:35:20
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.21s           2022-02-14T19:35:34
+================================================================================
+[2022-02-14 16:35:58,726] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-14 16:35:58,728] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2022-02-14 19:30:58.728156+00:00
+[2022-02-14 16:36:10,738] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-14 16:36:10,740] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2022-02-14 19:31:10.740133+00:00
+[2022-02-14 16:36:18,853] {dag_processing.py:1064} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.11s           2022-02-14T19:35:44
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  0.11s           2022-02-14T19:35:48
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0  0.11s           2022-02-14T19:36:02
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.11s           2022-02-14T19:36:18
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.11s           2022-02-14T19:35:36
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.11s           2022-02-14T19:35:52
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.11s           2022-02-14T19:36:16
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.11s           2022-02-14T19:36:04
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.21s           2022-02-14T19:35:56
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.11s           2022-02-14T19:36:06
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.11s           2022-02-14T19:36:00
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.11s           2022-02-14T19:36:08
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.21s           2022-02-14T19:35:46
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.11s           2022-02-14T19:36:12
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                   0           0  0.21s           2022-02-14T19:35:58
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.11s           2022-02-14T19:35:30
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.11s           2022-02-14T19:35:32
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.10s           2022-02-14T19:35:42
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.11s           2022-02-14T19:35:54
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.21s           2022-02-14T19:35:38
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.10s           2022-02-14T19:35:40
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  0.10s           2022-02-14T19:36:14
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.11s           2022-02-14T19:35:50
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.11s           2022-02-14T19:36:10
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.21s           2022-02-14T19:35:34
+================================================================================
+[2022-02-14 16:36:22,746] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-14 16:36:22,747] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2022-02-14 19:31:22.747537+00:00
+[2022-02-14 16:36:34,761] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-14 16:36:34,762] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2022-02-14 19:31:34.762824+00:00
+[2022-02-14 16:36:46,772] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-14 16:36:46,773] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2022-02-14 19:31:46.773171+00:00
+[2022-02-14 16:36:48,987] {dag_processing.py:1064} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.11s           2022-02-14T19:36:34
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  0.10s           2022-02-14T19:36:38
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0  0.11s           2022-02-14T19:36:02
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.11s           2022-02-14T19:36:18
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.11s           2022-02-14T19:36:26
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.10s           2022-02-14T19:36:42
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.11s           2022-02-14T19:36:16
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.11s           2022-02-14T19:36:04
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.11s           2022-02-14T19:36:46
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.11s           2022-02-14T19:36:06
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.11s           2022-02-14T19:36:00
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.11s           2022-02-14T19:36:08
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.21s           2022-02-14T19:36:36
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.11s           2022-02-14T19:36:12
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                   0           0  0.21s           2022-02-14T19:36:48
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.11s           2022-02-14T19:36:20
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.11s           2022-02-14T19:36:22
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.11s           2022-02-14T19:36:32
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.21s           2022-02-14T19:36:44
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.21s           2022-02-14T19:36:28
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.21s           2022-02-14T19:36:30
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  0.10s           2022-02-14T19:36:14
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.21s           2022-02-14T19:36:40
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.11s           2022-02-14T19:36:10
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.11s           2022-02-14T19:36:24
+================================================================================
+[2022-02-14 16:36:58,785] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-14 16:36:58,786] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2022-02-14 19:31:58.786335+00:00
+[2022-02-14 16:37:10,796] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-14 16:37:10,798] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2022-02-14 19:32:10.798283+00:00
+[2022-02-14 16:37:19,018] {dag_processing.py:1064} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.11s           2022-02-14T19:36:34
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  0.10s           2022-02-14T19:36:38
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0  0.11s           2022-02-14T19:36:52
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.21s           2022-02-14T19:37:09
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.10s           2022-02-14T19:37:16
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.10s           2022-02-14T19:36:42
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.21s           2022-02-14T19:37:07
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.21s           2022-02-14T19:36:54
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.11s           2022-02-14T19:36:46
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.11s           2022-02-14T19:36:56
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.11s           2022-02-14T19:36:50
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.11s           2022-02-14T19:36:58
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.21s           2022-02-14T19:36:36
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.11s           2022-02-14T19:37:02
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                   0           0  0.21s           2022-02-14T19:36:48
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.11s           2022-02-14T19:37:10
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.10s           2022-02-14T19:37:12
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.11s           2022-02-14T19:36:32
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.21s           2022-02-14T19:36:44
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.21s           2022-02-14T19:37:19
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.21s           2022-02-14T19:36:30
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  0.11s           2022-02-14T19:37:04
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.21s           2022-02-14T19:36:40
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2022-02-14T19:37:00
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.10s           2022-02-14T19:37:14
+================================================================================
+[2022-02-14 16:37:22,808] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-14 16:37:22,814] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2022-02-14 19:32:22.814120+00:00
+[2022-02-14 16:37:34,818] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-14 16:37:34,819] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2022-02-14 19:32:34.819800+00:00
+[2022-02-14 16:37:46,830] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-14 16:37:46,836] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2022-02-14 19:32:46.836434+00:00
+[2022-02-14 16:37:50,950] {dag_processing.py:1064} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.21s           2022-02-14T19:37:25
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  0.11s           2022-02-14T19:37:28
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0  0.11s           2022-02-14T19:37:42
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.21s           2022-02-14T19:37:09
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.10s           2022-02-14T19:37:16
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.11s           2022-02-14T19:37:32
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.21s           2022-02-14T19:37:07
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.11s           2022-02-14T19:37:44
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.11s           2022-02-14T19:37:36
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.11s           2022-02-14T19:37:46
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.21s           2022-02-14T19:37:41
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.11s           2022-02-14T19:37:48
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.21s           2022-02-14T19:37:27
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.11s           2022-02-14T19:37:02
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                   0           0  0.11s           2022-02-14T19:37:38
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.11s           2022-02-14T19:37:10
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.10s           2022-02-14T19:37:12
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.21s           2022-02-14T19:37:23
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.11s           2022-02-14T19:37:34
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.21s           2022-02-14T19:37:19
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.11s           2022-02-14T19:37:20
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  0.11s           2022-02-14T19:37:04
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.11s           2022-02-14T19:37:30
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.11s           2022-02-14T19:37:50
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.10s           2022-02-14T19:37:14
+================================================================================
+[2022-02-14 16:37:58,843] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-14 16:37:58,844] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2022-02-14 19:32:58.844295+00:00
+[2022-02-14 16:38:10,854] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-14 16:38:10,855] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2022-02-14 19:33:10.855120+00:00
+[2022-02-14 16:38:20,973] {dag_processing.py:1064} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.10s           2022-02-14T19:38:14
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  0.11s           2022-02-14T19:38:18
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0  0.11s           2022-02-14T19:37:42
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.21s           2022-02-14T19:37:59
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.11s           2022-02-14T19:38:06
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.11s           2022-02-14T19:37:32
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.11s           2022-02-14T19:37:56
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.11s           2022-02-14T19:37:44
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.11s           2022-02-14T19:37:36
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.11s           2022-02-14T19:37:46
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.21s           2022-02-14T19:37:41
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.11s           2022-02-14T19:37:48
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.10s           2022-02-14T19:38:16
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.21s           2022-02-14T19:37:53
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                   0           0  0.11s           2022-02-14T19:37:38
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.11s           2022-02-14T19:38:00
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.11s           2022-02-14T19:38:02
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.21s           2022-02-14T19:38:13
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.11s           2022-02-14T19:37:34
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.21s           2022-02-14T19:38:09
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.11s           2022-02-14T19:38:10
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  0.21s           2022-02-14T19:37:55
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.11s           2022-02-14T19:38:20
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.11s           2022-02-14T19:37:50
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.21s           2022-02-14T19:38:05
+================================================================================
+[2022-02-14 16:38:22,866] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-14 16:38:22,867] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2022-02-14 19:33:22.866999+00:00
+[2022-02-14 16:38:34,877] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-14 16:38:34,879] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2022-02-14 19:33:34.878967+00:00
+[2022-02-14 16:38:46,895] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-14 16:38:46,897] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2022-02-14 19:33:46.897179+00:00
+[2022-02-14 16:38:51,007] {dag_processing.py:1064} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.10s           2022-02-14T19:38:14
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  0.11s           2022-02-14T19:38:18
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0  0.10s           2022-02-14T19:38:32
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.11s           2022-02-14T19:38:49
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.11s           2022-02-14T19:38:06
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.11s           2022-02-14T19:38:23
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.11s           2022-02-14T19:38:47
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.11s           2022-02-14T19:38:35
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.10s           2022-02-14T19:38:26
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.11s           2022-02-14T19:38:36
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.11s           2022-02-14T19:38:30
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.21s           2022-02-14T19:38:39
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.10s           2022-02-14T19:38:16
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.10s           2022-02-14T19:38:42
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                   0           0  0.11s           2022-02-14T19:38:28
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.10s           2022-02-14T19:38:51
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.11s           2022-02-14T19:38:02
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.21s           2022-02-14T19:38:13
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.21s           2022-02-14T19:38:25
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.21s           2022-02-14T19:38:09
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.11s           2022-02-14T19:38:10
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  0.11s           2022-02-14T19:38:45
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.11s           2022-02-14T19:38:20
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.11s           2022-02-14T19:38:40
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.21s           2022-02-14T19:38:05
+================================================================================
+[2022-02-14 16:38:58,905] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-14 16:38:58,906] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2022-02-14 19:33:58.906431+00:00
+[2022-02-14 16:39:10,915] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-14 16:39:10,916] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2022-02-14 19:34:10.916000+00:00
+[2022-02-14 16:39:21,031] {dag_processing.py:1064} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.21s           2022-02-14T19:39:05
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  0.10s           2022-02-14T19:39:09
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0  0.10s           2022-02-14T19:38:32
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.11s           2022-02-14T19:38:49
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.11s           2022-02-14T19:38:57
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.11s           2022-02-14T19:39:13
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.11s           2022-02-14T19:38:47
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.11s           2022-02-14T19:38:35
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.11s           2022-02-14T19:39:17
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.11s           2022-02-14T19:38:36
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.10s           2022-02-14T19:39:21
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.21s           2022-02-14T19:38:39
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.21s           2022-02-14T19:39:07
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.10s           2022-02-14T19:38:42
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                   0           0  0.11s           2022-02-14T19:39:19
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.10s           2022-02-14T19:38:51
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.10s           2022-02-14T19:38:53
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.11s           2022-02-14T19:39:03
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.21s           2022-02-14T19:39:15
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.21s           2022-02-14T19:38:59
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.11s           2022-02-14T19:39:01
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  0.11s           2022-02-14T19:38:45
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.10s           2022-02-14T19:39:11
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.11s           2022-02-14T19:38:40
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.11s           2022-02-14T19:38:55
+================================================================================
+[2022-02-14 16:39:22,926] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-14 16:39:22,927] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2022-02-14 19:34:22.927014+00:00
+[2022-02-14 16:39:34,938] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-14 16:39:34,940] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2022-02-14 19:34:34.940100+00:00
+[2022-02-14 16:39:46,954] {dag_processing.py:939} INFO - Searching for files in /home/alexis/Documentos/datapipeline/airflow/dags
+[2022-02-14 16:39:46,963] {dag_processing.py:942} INFO - There are 25 files in /home/alexis/Documentos/datapipeline/airflow/dags
+[2022-02-14 16:39:46,972] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-14 16:39:46,972] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2022-02-14 19:34:46.972403+00:00
+[2022-02-14 16:39:51,060] {dag_processing.py:1064} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.21s           2022-02-14T19:39:05
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  0.10s           2022-02-14T19:39:09
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0  0.11s           2022-02-14T19:39:23
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.10s           2022-02-14T19:39:39
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.10s           2022-02-14T19:39:47
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.11s           2022-02-14T19:39:13
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.11s           2022-02-14T19:39:37
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.12s           2022-02-14T19:39:25
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.11s           2022-02-14T19:39:17
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.11s           2022-02-14T19:39:27
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.10s           2022-02-14T19:39:21
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.11s           2022-02-14T19:39:29
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.21s           2022-02-14T19:39:07
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.21s           2022-02-14T19:39:33
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                   0           0  0.11s           2022-02-14T19:39:19
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.21s           2022-02-14T19:39:41
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.21s           2022-02-14T19:39:43
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.11s           2022-02-14T19:39:03
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.21s           2022-02-14T19:39:15
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.22s           2022-02-14T19:39:49
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.10s           2022-02-14T19:39:51
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  0.21s           2022-02-14T19:39:35
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.10s           2022-02-14T19:39:11
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.11s           2022-02-14T19:39:31
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.21s           2022-02-14T19:39:45
+================================================================================
+[2022-02-14 16:39:58,965] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-14 16:39:58,971] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2022-02-14 19:34:58.971499+00:00
+[2022-02-14 16:40:10,974] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-14 16:40:10,981] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2022-02-14 19:35:10.981381+00:00
+[2022-02-14 16:40:21,105] {dag_processing.py:1064} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.11s           2022-02-14T19:39:55
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  0.11s           2022-02-14T19:39:59
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0  0.11s           2022-02-14T19:40:13
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.10s           2022-02-14T19:39:39
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.10s           2022-02-14T19:39:47
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.11s           2022-02-14T19:40:03
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.11s           2022-02-14T19:39:37
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.11s           2022-02-14T19:40:15
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.11s           2022-02-14T19:40:07
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.10s           2022-02-14T19:40:17
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.11s           2022-02-14T19:40:11
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.21s           2022-02-14T19:40:19
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.10s           2022-02-14T19:39:57
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.21s           2022-02-14T19:39:33
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                   0           0  0.21s           2022-02-14T19:40:09
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.21s           2022-02-14T19:39:41
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.21s           2022-02-14T19:39:43
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.21s           2022-02-14T19:39:53
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.11s           2022-02-14T19:40:05
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.22s           2022-02-14T19:39:49
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.10s           2022-02-14T19:39:51
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  0.21s           2022-02-14T19:39:35
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.21s           2022-02-14T19:40:01
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.12s           2022-02-14T19:40:21
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.21s           2022-02-14T19:39:45
+================================================================================
+[2022-02-14 16:40:22,999] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-14 16:40:22,999] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2022-02-14 19:35:22.999599+00:00
+[2022-02-14 16:40:35,000] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-14 16:40:35,001] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2022-02-14 19:35:35.001190+00:00
+[2022-02-14 16:40:47,010] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-14 16:40:47,012] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2022-02-14 19:35:47.012090+00:00
+[2022-02-14 16:40:51,120] {dag_processing.py:1064} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.11s           2022-02-14T19:40:45
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  0.10s           2022-02-14T19:40:49
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0  0.11s           2022-02-14T19:40:13
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.11s           2022-02-14T19:40:29
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.11s           2022-02-14T19:40:37
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.11s           2022-02-14T19:40:03
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.21s           2022-02-14T19:40:27
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.11s           2022-02-14T19:40:15
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.11s           2022-02-14T19:40:07
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.10s           2022-02-14T19:40:17
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.11s           2022-02-14T19:40:11
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.21s           2022-02-14T19:40:19
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.11s           2022-02-14T19:40:47
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.11s           2022-02-14T19:40:23
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                   0           0  0.21s           2022-02-14T19:40:09
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.11s           2022-02-14T19:40:31
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.10s           2022-02-14T19:40:33
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.21s           2022-02-14T19:40:43
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.11s           2022-02-14T19:40:05
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.20s           2022-02-14T19:40:39
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.11s           2022-02-14T19:40:41
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  0.21s           2022-02-14T19:40:25
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.10s           2022-02-14T19:40:51
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.12s           2022-02-14T19:40:21
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.10s           2022-02-14T19:40:35
+================================================================================
+[2022-02-14 16:40:59,021] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-14 16:40:59,023] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2022-02-14 19:35:59.023167+00:00
+[2022-02-14 16:41:11,038] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-14 16:41:11,039] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2022-02-14 19:36:11.039414+00:00
+[2022-02-14 16:41:21,158] {dag_processing.py:1064} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.11s           2022-02-14T19:40:45
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  0.10s           2022-02-14T19:40:49
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0  0.11s           2022-02-14T19:41:03
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.10s           2022-02-14T19:41:19
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.11s           2022-02-14T19:40:37
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.11s           2022-02-14T19:40:53
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.11s           2022-02-14T19:41:17
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.11s           2022-02-14T19:41:05
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.11s           2022-02-14T19:40:57
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.11s           2022-02-14T19:41:07
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.11s           2022-02-14T19:41:01
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.11s           2022-02-14T19:41:09
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.11s           2022-02-14T19:40:47
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.11s           2022-02-14T19:41:13
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                   0           0  0.11s           2022-02-14T19:40:59
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.11s           2022-02-14T19:41:21
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.10s           2022-02-14T19:40:33
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.21s           2022-02-14T19:40:43
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.11s           2022-02-14T19:40:55
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.20s           2022-02-14T19:40:39
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.11s           2022-02-14T19:40:41
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  0.11s           2022-02-14T19:41:15
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.10s           2022-02-14T19:40:51
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.11s           2022-02-14T19:41:11
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.10s           2022-02-14T19:40:35
+================================================================================
+[2022-02-14 16:41:23,044] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-14 16:41:23,045] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2022-02-14 19:36:23.045382+00:00
+[2022-02-14 16:41:35,058] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-14 16:41:35,065] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2022-02-14 19:36:35.064971+00:00
+[2022-02-14 16:41:47,069] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-14 16:41:47,070] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2022-02-14 19:36:47.070333+00:00
+[2022-02-14 16:41:51,187] {dag_processing.py:1064} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.21s           2022-02-14T19:41:35
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  0.10s           2022-02-14T19:41:39
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0  0.11s           2022-02-14T19:41:03
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.10s           2022-02-14T19:41:19
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.10s           2022-02-14T19:41:27
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.11s           2022-02-14T19:41:43
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.11s           2022-02-14T19:41:17
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.11s           2022-02-14T19:41:05
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.11s           2022-02-14T19:41:47
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.11s           2022-02-14T19:41:07
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.11s           2022-02-14T19:41:51
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.11s           2022-02-14T19:41:09
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.21s           2022-02-14T19:41:37
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.11s           2022-02-14T19:41:13
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                   0           0  0.21s           2022-02-14T19:41:49
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.11s           2022-02-14T19:41:21
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.11s           2022-02-14T19:41:23
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.22s           2022-02-14T19:41:33
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.12s           2022-02-14T19:41:45
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.11s           2022-02-14T19:41:29
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.10s           2022-02-14T19:41:31
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  0.11s           2022-02-14T19:41:15
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.11s           2022-02-14T19:41:41
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.11s           2022-02-14T19:41:11
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.21s           2022-02-14T19:41:25
+================================================================================
+[2022-02-14 16:41:59,078] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-14 16:41:59,079] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2022-02-14 19:36:59.079041+00:00
+[2022-02-14 16:42:11,091] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-14 16:42:11,097] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2022-02-14 19:37:11.097458+00:00
+[2022-02-14 16:42:21,205] {dag_processing.py:1064} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.21s           2022-02-14T19:41:35
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  0.10s           2022-02-14T19:41:39
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0  0.11s           2022-02-14T19:41:53
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.11s           2022-02-14T19:42:09
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.11s           2022-02-14T19:42:17
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.11s           2022-02-14T19:41:43
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.11s           2022-02-14T19:42:07
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.21s           2022-02-14T19:41:55
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.11s           2022-02-14T19:41:47
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.21s           2022-02-14T19:41:57
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.11s           2022-02-14T19:41:51
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.11s           2022-02-14T19:41:59
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.21s           2022-02-14T19:41:37
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.10s           2022-02-14T19:42:03
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                   0           0  0.21s           2022-02-14T19:41:49
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.11s           2022-02-14T19:42:11
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.11s           2022-02-14T19:42:13
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.22s           2022-02-14T19:41:33
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.12s           2022-02-14T19:41:45
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.21s           2022-02-14T19:42:19
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.10s           2022-02-14T19:42:21
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  0.21s           2022-02-14T19:42:05
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.11s           2022-02-14T19:41:41
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.11s           2022-02-14T19:42:01
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.11s           2022-02-14T19:42:15
+================================================================================
+[2022-02-14 16:42:23,102] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-14 16:42:23,102] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2022-02-14 19:37:23.102771+00:00
+[2022-02-14 16:42:35,114] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-14 16:42:35,115] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2022-02-14 19:37:35.115158+00:00
+[2022-02-14 16:42:47,126] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-14 16:42:47,127] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2022-02-14 19:37:47.127808+00:00
+[2022-02-14 16:42:51,238] {dag_processing.py:1064} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.22s           2022-02-14T19:42:25
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  0.11s           2022-02-14T19:42:29
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0  0.21s           2022-02-14T19:42:43
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.11s           2022-02-14T19:42:09
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.11s           2022-02-14T19:42:17
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.11s           2022-02-14T19:42:33
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.11s           2022-02-14T19:42:07
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.11s           2022-02-14T19:42:45
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.10s           2022-02-14T19:42:37
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.11s           2022-02-14T19:42:47
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.21s           2022-02-14T19:42:41
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.21s           2022-02-14T19:42:49
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.21s           2022-02-14T19:42:27
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.10s           2022-02-14T19:42:03
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                   0           0  0.11s           2022-02-14T19:42:39
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.11s           2022-02-14T19:42:11
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.11s           2022-02-14T19:42:13
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.11s           2022-02-14T19:42:23
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.11s           2022-02-14T19:42:35
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.21s           2022-02-14T19:42:19
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.10s           2022-02-14T19:42:21
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  0.21s           2022-02-14T19:42:05
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.11s           2022-02-14T19:42:31
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2022-02-14T19:42:51
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.11s           2022-02-14T19:42:15
+================================================================================
+[2022-02-14 16:42:59,138] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-14 16:42:59,138] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2022-02-14 19:37:59.138573+00:00
+[2022-02-14 16:43:11,150] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-14 16:43:11,156] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2022-02-14 19:38:11.156320+00:00
+[2022-02-14 16:43:21,263] {dag_processing.py:1064} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.10s           2022-02-14T19:43:15
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  0.10s           2022-02-14T19:43:19
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0  0.21s           2022-02-14T19:42:43
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.21s           2022-02-14T19:42:59
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.11s           2022-02-14T19:43:07
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.11s           2022-02-14T19:42:33
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.21s           2022-02-14T19:42:57
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.11s           2022-02-14T19:42:45
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.10s           2022-02-14T19:42:37
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.11s           2022-02-14T19:42:47
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.21s           2022-02-14T19:42:41
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.21s           2022-02-14T19:42:49
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.11s           2022-02-14T19:43:17
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.22s           2022-02-14T19:42:53
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                   0           0  0.11s           2022-02-14T19:42:39
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.21s           2022-02-14T19:43:01
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.21s           2022-02-14T19:43:03
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.11s           2022-02-14T19:43:13
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.11s           2022-02-14T19:42:35
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.10s           2022-02-14T19:43:09
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.11s           2022-02-14T19:43:11
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  0.21s           2022-02-14T19:42:55
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.10s           2022-02-14T19:43:21
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2022-02-14T19:42:51
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.10s           2022-02-14T19:43:05
+================================================================================
+[2022-02-14 16:43:23,161] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-14 16:43:23,162] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2022-02-14 19:38:23.162209+00:00
+[2022-02-14 16:43:35,173] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-14 16:43:35,174] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2022-02-14 19:38:35.174328+00:00
+[2022-02-14 16:43:47,184] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-14 16:43:47,185] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2022-02-14 19:38:47.185208+00:00
+[2022-02-14 16:43:51,294] {dag_processing.py:1064} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.10s           2022-02-14T19:43:15
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  0.10s           2022-02-14T19:43:19
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0  0.11s           2022-02-14T19:43:33
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.12s           2022-02-14T19:43:49
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.11s           2022-02-14T19:43:07
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.10s           2022-02-14T19:43:23
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.10s           2022-02-14T19:43:47
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.11s           2022-02-14T19:43:35
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.10s           2022-02-14T19:43:27
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.10s           2022-02-14T19:43:37
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.11s           2022-02-14T19:43:31
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.11s           2022-02-14T19:43:39
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.11s           2022-02-14T19:43:17
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.11s           2022-02-14T19:43:43
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                   0           0  0.11s           2022-02-14T19:43:29
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.11s           2022-02-14T19:43:51
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.21s           2022-02-14T19:43:03
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.11s           2022-02-14T19:43:13
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.11s           2022-02-14T19:43:25
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.10s           2022-02-14T19:43:09
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.11s           2022-02-14T19:43:11
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  0.11s           2022-02-14T19:43:45
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.10s           2022-02-14T19:43:21
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.11s           2022-02-14T19:43:41
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.10s           2022-02-14T19:43:05
+================================================================================
+[2022-02-14 16:43:59,192] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-14 16:43:59,192] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2022-02-14 19:38:59.192803+00:00
+[2022-02-14 16:44:11,205] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-14 16:44:11,206] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2022-02-14 19:39:11.206589+00:00
+[2022-02-14 16:44:21,320] {dag_processing.py:1064} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.11s           2022-02-14T19:44:05
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  0.11s           2022-02-14T19:44:09
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0  0.11s           2022-02-14T19:43:33
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.12s           2022-02-14T19:43:49
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.11s           2022-02-14T19:43:57
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.11s           2022-02-14T19:44:13
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.10s           2022-02-14T19:43:47
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.11s           2022-02-14T19:43:35
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.11s           2022-02-14T19:44:17
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.10s           2022-02-14T19:43:37
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.10s           2022-02-14T19:44:21
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.11s           2022-02-14T19:43:39
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.11s           2022-02-14T19:44:07
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.11s           2022-02-14T19:43:43
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                   0           0  0.11s           2022-02-14T19:44:19
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.11s           2022-02-14T19:43:51
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.10s           2022-02-14T19:43:53
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.21s           2022-02-14T19:44:03
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.11s           2022-02-14T19:44:15
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.10s           2022-02-14T19:43:59
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.10s           2022-02-14T19:44:01
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  0.11s           2022-02-14T19:43:45
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.11s           2022-02-14T19:44:11
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.11s           2022-02-14T19:43:41
+/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.21s           2022-02-14T19:43:55
+================================================================================
+[2022-02-14 16:44:23,214] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-14 16:44:23,215] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2022-02-14 19:39:23.215254+00:00
+[2022-02-14 16:44:35,226] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-14 16:44:35,228] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2022-02-14 19:39:35.228017+00:00
