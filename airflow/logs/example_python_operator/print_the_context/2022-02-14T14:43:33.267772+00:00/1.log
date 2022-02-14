@@ -1,0 +1,52 @@
+[2022-02-14 11:43:49,085] {taskinstance.py:670} INFO - Dependencies all met for <TaskInstance: example_python_operator.print_the_context 2022-02-14T14:43:33.267772+00:00 [queued]>
+[2022-02-14 11:43:49,092] {taskinstance.py:670} INFO - Dependencies all met for <TaskInstance: example_python_operator.print_the_context 2022-02-14T14:43:33.267772+00:00 [queued]>
+[2022-02-14 11:43:49,093] {taskinstance.py:880} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-14 11:43:49,093] {taskinstance.py:881} INFO - Starting attempt 1 of 1
+[2022-02-14 11:43:49,093] {taskinstance.py:882} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-14 11:43:49,100] {taskinstance.py:901} INFO - Executing <Task(PythonOperator): print_the_context> on 2022-02-14T14:43:33.267772+00:00
+[2022-02-14 11:43:49,102] {standard_task_runner.py:54} INFO - Started process 12012 to run task
+[2022-02-14 11:43:49,152] {standard_task_runner.py:77} INFO - Running: ['airflow', 'run', 'example_python_operator', 'print_the_context', '2022-02-14T14:43:33.267772+00:00', '--job_id', '2', '--pool', 'default_pool', '--raw', '-sd', '/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py', '--cfg_path', '/tmp/tmphgyxjw7p']
+[2022-02-14 11:43:49,153] {standard_task_runner.py:78} INFO - Job 2: Subtask print_the_context
+[2022-02-14 11:43:49,169] {logging_mixin.py:112} INFO - Running <TaskInstance: example_python_operator.print_the_context 2022-02-14T14:43:33.267772+00:00 [running]> on host alexis.toigo
+[2022-02-14 11:43:49,186] {logging_mixin.py:112} INFO - {'END_DATE': '2022-02-14',
+ 'conf': <airflow.configuration.AirflowConfigParser object at 0x7f6a17990580>,
+ 'dag': <DAG: example_python_operator>,
+ 'dag_run': <DagRun example_python_operator @ 2022-02-14 14:43:33.267772+00:00: manual__2022-02-14T14:43:33.267772+00:00, externally triggered: True>,
+ 'ds_nodash': '20220214',
+ 'end_date': '2022-02-14',
+ 'execution_date': <Pendulum [2022-02-14T14:43:33.267772+00:00]>,
+ 'inlets': [],
+ 'latest_date': '2022-02-14',
+ 'macros': <module 'airflow.macros' from '/home/alexis/Documentos/datapipeline/.env/lib/python3.8/site-packages/airflow/macros/__init__.py'>,
+ 'next_ds': '2022-02-14',
+ 'next_ds_nodash': '20220214',
+ 'next_execution_date': <Pendulum [2022-02-14T14:43:33.267772+00:00]>,
+ 'outlets': [],
+ 'params': {},
+ 'prev_ds': '2022-02-14',
+ 'prev_ds_nodash': '20220214',
+ 'prev_execution_date': <Pendulum [2022-02-14T14:43:33.267772+00:00]>,
+ 'prev_execution_date_success': <Proxy at 0x7f6a089589c0 with factory <function TaskInstance.get_template_context.<locals>.<lambda> at 0x7f6a0893bdc0>>,
+ 'prev_start_date_success': <Proxy at 0x7f6a08958200 with factory <function TaskInstance.get_template_context.<locals>.<lambda> at 0x7f6a0895af70>>,
+ 'run_id': 'manual__2022-02-14T14:43:33.267772+00:00',
+ 'tables': None,
+ 'task': <Task(PythonOperator): print_the_context>,
+ 'task_instance': <TaskInstance: example_python_operator.print_the_context 2022-02-14T14:43:33.267772+00:00 [running]>,
+ 'task_instance_key_str': 'example_python_operator__print_the_context__20220214',
+ 'templates_dict': None,
+ 'test_mode': False,
+ 'ti': <TaskInstance: example_python_operator.print_the_context 2022-02-14T14:43:33.267772+00:00 [running]>,
+ 'tomorrow_ds': '2022-02-15',
+ 'tomorrow_ds_nodash': '20220215',
+ 'ts': '2022-02-14T14:43:33.267772+00:00',
+ 'ts_nodash': '20220214T144333',
+ 'ts_nodash_with_tz': '20220214T144333.267772+0000',
+ 'var': {'json': None, 'value': None},
+ 'yesterday_ds': '2022-02-13',
+ 'yesterday_ds_nodash': '20220213'}
+[2022-02-14 11:43:49,186] {logging_mixin.py:112} INFO - 2022-02-14
+[2022-02-14 11:43:49,186] {python_operator.py:114} INFO - Done. Returned value was: Whatever you return gets printed in the logs
+[2022-02-14 11:43:49,194] {taskinstance.py:1057} INFO - Marking task as SUCCESS.dag_id=example_python_operator, task_id=print_the_context, execution_date=20220214T144333, start_date=20220214T144349, end_date=20220214T144349
+[2022-02-14 11:43:54,105] {local_task_job.py:102} INFO - Task exited with return code 0
